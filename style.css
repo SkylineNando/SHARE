@@ -1,0 +1,35 @@
+.share-button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: #fff;
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  .share-options {
+    position: absolute;
+    top: 100%; /* Posição abaixo do botão */
+    left: 0;
+    display: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    z-index: 2;
+  }
+
+  .share-button:hover .share-options {
+    display: block;
+  }
+
+  .share-options a {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .share-options a:hover {
+    color: #007bff;
+  }
